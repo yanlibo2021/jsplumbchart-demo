@@ -1,7 +1,7 @@
 export default {
   route: {
     dashboard: 'Dashboard test',
-    documentation: 'Documentation',
+    documentation: 'flow desiger',
     guide: 'Guide',
     permission: 'Permission',
     pagePermission: 'Page Permission',
@@ -61,7 +61,7 @@ export default {
     theme: 'Theme',
     clipboardDemo: 'Clipboard',
     i18n: 'I18n',
-    externalLink: 'External Link',
+    // externalLink: 'External Link',
     profile: 'Profile'
   },
   navbar: {
@@ -73,7 +73,7 @@ export default {
     size: 'Global Size'
   },
   login: {
-    title: 'Login Form',
+    title: 'Middle Visualization System',
     logIn: 'Login',
     username: 'Username',
     password: 'Password',

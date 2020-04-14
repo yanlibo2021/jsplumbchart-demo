@@ -1,7 +1,7 @@
 export default {
   route: {
-    dashboard: '首页 test',
-    documentation: '文档',
+    dashboard: '首页',
+    documentation: '流程设计器',
     guide: '引导页',
     permission: '权限测试页',
     rolePermission: '角色权限',
@@ -61,7 +61,7 @@ export default {
     theme: '换肤',
     clipboardDemo: 'Clipboard',
     i18n: '国际化',
-    externalLink: '外链',
+    // externalLink: '外链',
     profile: '个人中心'
   },
   navbar: {
@@ -73,11 +73,11 @@ export default {
     size: '布局大小'
   },
   login: {
-    title: '系统登录',
+    title: '中台可视化系统',
     logIn: '登录',
     username: '账号',
     password: '密码',
-    any: '随便填',
+    any: 'admin',
     thirdparty: '第三方登录',
     thirdpartyTips: '本地不能模拟，请结合自己业务进行模拟！！！'
   },

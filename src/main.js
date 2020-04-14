@@ -20,6 +20,10 @@ import './utils/error-log' // error log
 
 import * as filters from './filters' // global filters
 
+import VueDragDrop from 'vue-drag-drop' // https://github.com/cameronhimself/vue-drag-drop
+
+Vue.use(VueDragDrop)
+
 /**
  * If you don't want to use mock-server
  * you want to use MockJs for mock api
