@@ -73,13 +73,13 @@ export const constantRoutes = [
   {
     path: '/',
     component: Layout,
-    redirect: '/dashboard',
+    redirect: '/map',
     children: [
       {
-        path: 'dashboard',
-        component: () => import('@/views/dashboard/index'),
-        name: 'Dashboard',
-        meta: { title: 'dashboard', icon: 'dashboard', affix: true }
+        path: 'map',
+        component: () => import('@/views/map/index'),
+        name: 'map',
+        meta: { title: 'map', icon: 'dashboard', affix: true }
       }
     ]
   },
@@ -96,14 +96,14 @@ export const constantRoutes = [
     ]
   },
   {
-    path: '/chartjs',
+    path: '/dashboard',
     component: Layout,
     children: [
       {
         path: 'index',
-        component: () => import('@/views/chartjs/index'),
-        name: 'chartjs',
-        meta: { title: 'chartjs', icon: 'documentation', affix: true }
+        component: () => import('@/views/dashboard/index'),
+        name: 'dashboard',
+        meta: { title: 'dashboard', icon: 'documentation', affix: true }
       }
     ]
   },
