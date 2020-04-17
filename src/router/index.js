@@ -70,31 +70,45 @@ export const constantRoutes = [
     component: () => import('@/views/error-page/401'),
     hidden: true
   },
+  // {
+  //   path: '/',
+  //   component: Layout,
+  //   redirect: '/map',
+  //   children: [
+  //     {
+  //       path: 'map',
+  //       component: () => import('@/views/map/index'),
+  //       name: 'map',
+  //       meta: { title: 'map', icon: 'dashboard', affix: true }
+  //     }
+  //   ]
+  // },
   {
     path: '/',
     component: Layout,
-    redirect: '/map',
+    redirect: '/documentation',
     children: [
       {
-        path: 'map',
-        component: () => import('@/views/map/index'),
-        name: 'map',
-        meta: { title: 'map', icon: 'dashboard', affix: true }
-      }
-    ]
-  },
-  {
-    path: '/documentation',
-    component: Layout,
-    children: [
-      {
-        path: 'index',
+        path: 'documentation',
         component: () => import('@/views/documentation/index'),
-        name: 'Documentation',
-        meta: { title: 'documentation', icon: 'documentation', affix: true }
+        name: 'documentation',
+        meta: { title: 'documentation', icon: 'dashboard', affix: true }
       }
     ]
   },
+  // {
+  //   path: '/documentation',
+  //   component: Layout,
+  //   children: [
+  //     {
+  //       path: 'index',
+  //       component: () => import('@/views/documentation/index'),
+  //       name: 'Documentation',
+  //       meta: { title: 'documentation', icon: 'documentation', affix: true }
+  //     }
+  //   ]
+  // },
+
   {
     path: '/dashboard',
     component: Layout,

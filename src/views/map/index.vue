@@ -1,10 +1,5 @@
 <template>
   <div class="container">
-    <!-- <el-row>
-      <el-col :span="24">
-        <h1 class="grid-content bg-purple-dark">疫情数据实时监控</h1>
-      </el-col>
-    </el-row>-->
     <h1>疫情数据实时监控</h1>
     <MapChart
       :countryData="{'US': 4, 'CA': 7, 'GB': 8, 'IE': 14, 'ES': 21}"
